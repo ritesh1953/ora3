@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORAchemy Dental Care — Premium Dental Clinic & Implant Centre</title>
+    <meta name="description" content="ORAchemy Dental Care by Dr. Ankita Vilasrao Bhagat. BDS (MUHS) Dental Surgeon offering dental implants, cosmetic dentistry, root canal, and more. Book your appointment today!">
+    <meta name="keywords" content="dental clinic, dental implant, dentist, ORAchemy, Dr. Ankita, cosmetic dentistry, root canal, teeth whitening">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918830820949?text=Hi%20Dr.%20Ankita%2C%20I%20would%20like%20to%20book%20an%20appointment." class="whatsapp-float" id="whatsapp-btn" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.132 6.738 3.054 9.37L1.056 31.18l6.014-1.956A15.9 15.9 0 0 0 16.004 32C24.826 32 32 24.826 32 16.004S24.826 0 16.004 0zm9.31 22.606c-.39 1.1-1.932 2.012-3.18 2.278-.854.18-1.968.324-5.72-1.23-4.802-1.988-7.892-6.86-8.132-7.18-.23-.318-1.932-2.572-1.932-4.904 0-2.332 1.222-3.476 1.656-3.952.39-.43 1.04-.644 1.664-.644.2 0 .38.01.542.018.434.02.652.044 .938.724.358.854 1.228 2.996 1.336 3.214.11.218.218.514.068.812-.14.308-.264.498-.482.766-.218.268-.458.598-.654.802-.218.232-.446.482-.192.944.254.462 1.13 1.864 2.426 3.02 1.666 1.486 3.07 1.948 3.508 2.166.434.218.69.184.944-.11.264-.308 1.122-1.306 1.42-1.756.294-.45.59-.374.998-.224.41.15 2.602 1.228 3.046 1.452.444.224.74.336.85.518.108.184.108 1.058-.282 2.156z"/></svg>
+    </a>
+
+    <!-- Sticky Call Banner (Mobile) -->
+    <a href="tel:+918830820949" class="mobile-call-bar" id="mobile-call-bar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Call Now — +91 88308 20949
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" id="nav-logo">
+                <img src="logo.png" alt="ORAchemy Logo" class="logo-image" width="40" height="40">
+                <span class="logo-text">ORA<span class="logo-gold">chemy</span></span>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#appointment" class="nav-cta-btn" id="nav-appointment-btn">Book Appointment</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge" id="hero-badge">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
+                    Trusted by 5000+ Happy Patients
+                </div>
+                <h1 class="hero-title" id="hero-title">
+                    Your Smile, <br>
+                    <span class="hero-title-gold">Our Passion.</span>
+                </h1>
+                <p class="hero-subtitle" id="hero-subtitle">
+                    Experience world-class dental care at <strong>ORAchemy Dental Care</strong> — 
+                    your premier destination for dental implants, cosmetic dentistry, and complete oral health solutions.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#appointment" class="btn btn-primary btn-lg" id="hero-book-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        Book Free Consultation
+                    </a>
+                    <a href="tel:+918830820949" class="btn btn-outline btn-lg" id="hero-call-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        Call Us Now
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item" id="stat-patients">
+                        <span class="stat-number" data-target="5000">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Happy Patients</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item" id="stat-experience">
+                        <span class="stat-number" data-target="8">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item" id="stat-rating">
+                        <span class="stat-number" data-target="4.9">0</span>
+                        <span class="stat-label">Google Rating ⭐</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <div class="doctor-illustration">
+                            <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Background circle -->
+                                <circle cx="200" cy="220" r="180" fill="url(#heroBg)" opacity="0.15"/>
+                                <!-- Tooth icon large -->
+                                <path d="M200 80C160 80 140 120 140 150C140 190 165 210 175 250C180 270 185 300 200 300C215 300 220 270 225 250C235 210 260 190 260 150C260 120 240 80 200 80Z" fill="url(#toothFill)" stroke="url(#toothStroke)" stroke-width="3"/>
+                                <path d="M170 145C170 130 180 118 200 118C220 118 230 130 230 145" stroke="#c9a84c" stroke-width="3" fill="none" stroke-linecap="round"/>
+                                <!-- Sparkles -->
+                                <circle cx="130" cy="120" r="4" fill="#c9a84c" opacity="0.8">
+                                    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+                                </circle>
+                                <circle cx="280" cy="100" r="3" fill="#c9a84c" opacity="0.6">
+                                    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
+                                </circle>
+                                <circle cx="260" cy="250" r="3.5" fill="#c9a84c" opacity="0.7">
+                                    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+                                </circle>
+                                <circle cx="120" cy="230" r="2.5" fill="#fff" opacity="0.5">
+                                    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
+                                </circle>
+                                <!-- Plus signs -->
+                                <g stroke="#c9a84c" stroke-width="2" opacity="0.4">
+                                    <line x1="100" y1="170" x2="100" y2="185"/>
+                                    <line x1="92.5" y1="177.5" x2="107.5" y2="177.5"/>
+                                </g>
+                                <g stroke="#c9a84c" stroke-width="2" opacity="0.3">
+                                    <line x1="290" y1="180" x2="290" y2="195"/>
+                                    <line x1="282.5" y1="187.5" x2="297.5" y2="187.5"/>
+                                </g>
+                                <!-- Info card -->
+                                <rect x="50" y="330" width="300" height="100" rx="16" fill="rgba(15,20,40,0.85)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+                                <text x="200" y="365" text-anchor="middle" fill="#c9a84c" font-family="Playfair Display" font-size="20" font-weight="600">Dr. Ankita Vilasrao Bhagat</text>
+                                <text x="200" y="392" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="Inter" font-size="13">BDS (MUHS) | Dental Surgeon</text>
+                                <text x="200" y="416" text-anchor="middle" fill="rgba(201,168,76,0.6)" font-family="Inter" font-size="12">ORAchemy Dental Care</text>
+                                <defs>
+                                    <linearGradient id="heroBg" x1="20" y1="40" x2="380" y2="400">
+                                        <stop offset="0%" stop-color="#c9a84c"/>
+                                        <stop offset="100%" stop-color="#1a1040"/>
+                                    </linearGradient>
+                                    <linearGradient id="toothFill" x1="140" y1="80" x2="260" y2="300">
+                                        <stop offset="0%" stop-color="#ffffff"/>
+                                        <stop offset="50%" stop-color="#f0e8d0"/>
+                                        <stop offset="100%" stop-color="#e0d4b8"/>
+                                    </linearGradient>
+                                    <linearGradient id="toothStroke" x1="140" y1="80" x2="260" y2="300">
+                                        <stop offset="0%" stop-color="#c9a84c"/>
+                                        <stop offset="100%" stop-color="#a08030"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="hero-floating-card card-timing" id="hero-timing-card">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        <div>
+                            <span class="fc-label">Open Today</span>
+                            <span class="fc-value">10 AM – 2 PM, 4 – 9 PM</span>
+                        </div>
+                    </div>
+                    <div class="hero-floating-card card-rating" id="hero-rating-card">
+                        <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                        <span class="fc-value">4.9/5 on Google</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="7 13 12 18 17 13"/><line x1="12" y1="18" x2="12" y2="6"/></svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Bar -->
+    <section class="trust-bar" id="trust-bar">
+        <div class="container">
+            <div class="trust-items">
+                <div class="trust-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>100% Safe & Sterilized</span>
+                </div>
+                <div class="trust-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    <span>Transparent Pricing</span>
+                </div>
+                <div class="trust-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                    <span>EMI Available</span>
+                </div>
+                <div class="trust-item">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <span>Advanced Technology</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-col">
+                    <div class="about-image-card">
+                        <div class="about-illustration">
+                            <svg viewBox="0 0 350 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="350" height="420" rx="24" fill="url(#aboutBg)"/>
+                                <!-- Doctor silhouette -->
+                                <circle cx="175" cy="140" r="55" fill="rgba(201,168,76,0.15)" stroke="rgba(201,168,76,0.3)" stroke-width="2"/>
+                                <circle cx="175" cy="130" r="30" fill="rgba(255,255,255,0.1)" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+                                <!-- Stethoscope icon -->
+                                <path d="M155 165 C155 190, 175 200, 175 200 C175 200, 195 190, 195 165" stroke="rgba(201,168,76,0.5)" stroke-width="2" fill="none"/>
+                                <circle cx="175" cy="205" r="5" fill="#c9a84c" opacity="0.6"/>
+                                <!-- Details -->
+                                <rect x="60" y="240" width="230" height="1" fill="rgba(201,168,76,0.2)"/>
+                                <text x="175" y="275" text-anchor="middle" fill="#c9a84c" font-family="Playfair Display" font-size="22" font-weight="600">Dr. Ankita V. Bhagat</text>
+                                <text x="175" y="305" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="Inter" font-size="14">BDS (MUHS)</text>
+                                <text x="175" y="330" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="Inter" font-size="13">Dental Surgeon</text>
+                                <!-- Badges -->
+                                <rect x="85" y="360" width="80" height="30" rx="15" fill="rgba(201,168,76,0.15)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+                                <text x="125" y="380" text-anchor="middle" fill="#c9a84c" font-family="Inter" font-size="11" font-weight="500">MUHS</text>
+                                <rect x="185" y="360" width="80" height="30" rx="15" fill="rgba(201,168,76,0.15)" stroke="rgba(201,168,76,0.3)" stroke-width="1"/>
+                                <text x="225" y="380" text-anchor="middle" fill="#c9a84c" font-family="Inter" font-size="11" font-weight="500">IDA Member</text>
+                                <defs>
+                                    <linearGradient id="aboutBg" x1="0" y1="0" x2="350" y2="420">
+                                        <stop offset="0%" stop-color="#0d1528"/>
+                                        <stop offset="100%" stop-color="#1a1040"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div class="about-experience-badge">
+                            <span class="exp-number">8+</span>
+                            <span class="exp-text">Years of<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content-col">
+                    <span class="section-tag">About the Doctor</span>
+                    <h2 class="section-title">Meet <span class="text-gold">Dr. Ankita</span></h2>
+                    <p class="about-text">
+                        <strong>Dr. Ankita Vilasrao Bhagat</strong> is a highly skilled dental surgeon with a BDS degree from Maharashtra University of Health Sciences (MUHS). With years of hands-on experience in general and cosmetic dentistry, she brings a compassionate, patient-first approach to every treatment.
+                    </p>
+                    <p class="about-text">
+                        At <strong>ORAchemy Dental Care</strong>, we combine cutting-edge technology with gentle care to deliver exceptional results. From routine check-ups to complex implant surgeries, Dr. Ankita ensures every patient leaves with a confident, healthy smile.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Painless Procedures</strong>
+                                <span>Advanced anaesthesia techniques</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Sterilized Environment</strong>
+                                <span>International hygiene standards</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Patient-Centric Care</strong>
+                                <span>Personalized treatment plans</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#appointment" class="btn btn-primary" id="about-book-btn">
+                        Book Your Visit
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2 class="section-title">Comprehensive <span class="text-gold">Dental Solutions</span></h2>
+                <p class="section-subtitle">From preventive care to advanced implants — we offer a full spectrum of dental treatments under one roof.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" id="service-implants">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="#c9a84c" stroke-width="2">
+                            <path d="M24 6C18 6 16 12 16 16C16 22 19 24 20 28L21 34H27L28 28C29 24 32 22 32 16C32 12 30 6 24 6Z"/>
+                            <line x1="21" y1="37" x2="27" y2="37"/>
+                            <line x1="22" y1="40" x2="26" y2="40"/>
+                            <rect x="22" y="34" width="4" height="8" rx="1"/>
+                        </svg>
+                    </div>
+                    <h3>Dental Implants</h3>
+                    <p>Permanent, natural-looking tooth replacements using premium titanium implants with lifetime warranty.</p>
+                    <a href="#appointment" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card" id="service-cosmetic">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="#c9a84c" stroke-width="2">
+                            <circle cx="24" cy="24" r="18"/>
+                            <path d="M16 28C18 32 21 34 24 34C27 34 30 32 32 28"/>
+                            <circle cx="18" cy="20" r="2" fill="#c9a84c"/>
+                            <circle cx="30" cy="20" r="2" fill="#c9a84c"/>
+                        </svg>
+                    </div>
+                    <h3>Smile Makeover</h3>
+                    <p>Complete cosmetic transformations including veneers, bonding, and smile design for the perfect look.</p>
+                    <a href="#appointment" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card" id="service-rct">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="#c9a84c" stroke-width="2">
+                            <path d="M24 6C18 6 16 12 16 16C16 22 19 24 20 30C21 34 22 40 24 40C26 40 27 34 28 30C29 24 32 22 32 16C32 12 30 6 24 6Z"/>
+                            <line x1="24" y1="16" x2="24" y2="30" stroke-dasharray="3 2"/>
+                        </svg>
+                    </div>
+                    <h3>Root Canal Treatment</h3>
+                    <p>Painless, single-sitting root canal therapy using rotary endodontics for faster recovery.</p>
+                    <a href="#appointment" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card" id="service-whitening">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="#c9a84c" stroke-width="2">
+                            <path d="M24 6C18 6 16 12 16 16C16 22 19 24 20 30C21 34 22 40 24 40C26 40 27 34 28 30C29 24 32 22 32 16C32 12 30 6 24 6Z"/>
+                            <path d="M10 10L14 14M34 14L38 10M24 2V5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Teeth Whitening</h3>
+                    <p>Professional in-office whitening that brightens your teeth up to 8 shades in just one session.</p>
+                    <a href="#appointment" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card" id="service-braces">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="#c9a84c" stroke-width="2">
+                            <rect x="10" y="16" width="8" height="12" rx="2"/>
+                            <rect x="20" y="14" width="8" height="14" rx="2"/>
+                            <rect x="30" y="16" width="8" height="12" rx="2"/>
+                            <line x1="10" y1="22" x2="38" y2="22"/>
+                        </svg>
+                    </div>
+                    <h3>Braces & Aligners</h3>
+                    <p>Orthodontic solutions including metal braces, ceramic braces, and invisible clear aligners.</p>
+                    <a href="#appointment" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card" id="service-kids">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="#c9a84c" stroke-width="2">
+                            <circle cx="24" cy="18" r="12"/>
+                            <path d="M18 18C19 22 21 24 24 24C27 24 29 22 30 18"/>
+                            <circle cx="20" cy="15" r="1.5" fill="#c9a84c"/>
+                            <circle cx="28" cy="15" r="1.5" fill="#c9a84c"/>
+                            <path d="M16 30L14 42H20L22 34H26L28 42H34L32 30"/>
+                        </svg>
+                    </div>
+                    <h3>Kids Dentistry</h3>
+                    <p>Gentle, fun dental care designed specially for children in a friendly, anxiety-free environment.</p>
+                    <a href="#appointment" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before/After Gallery -->
+    <section class="gallery section" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Transformations</span>
+                <h2 class="section-title">See the <span class="text-gold">Difference</span></h2>
+                <p class="section-subtitle">Real results from real patients. Witness the transformative power of professional dental care.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" id="gallery-item-1">
+                    <div class="gallery-card">
+                        <div class="gallery-visual" style="background: linear-gradient(135deg, #1a1040, #0d1528);">
+                            <div class="gallery-before-after">
+                                <div class="ba-side ba-before">
+                                    <svg viewBox="0 0 120 80" fill="none">
+                                        <rect width="120" height="80" rx="8" fill="rgba(255,255,255,0.05)"/>
+                                        <path d="M30 50C35 40 45 35 60 35C75 35 85 40 90 50" stroke="rgba(255,255,255,0.3)" stroke-width="2" fill="none"/>
+                                        <rect x="40" y="38" width="10" height="14" rx="2" fill="rgba(255,200,100,0.3)" stroke="rgba(255,200,100,0.5)" stroke-width="1" transform="rotate(-8 45 45)"/>
+                                        <rect x="52" y="35" width="10" height="16" rx="2" fill="rgba(255,200,100,0.3)" stroke="rgba(255,200,100,0.5)" stroke-width="1"/>
+                                        <rect x="64" y="36" width="10" height="15" rx="2" fill="rgba(255,200,100,0.3)" stroke="rgba(255,200,100,0.5)" stroke-width="1" transform="rotate(5 69 43)"/>
+                                        <text x="60" y="72" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="Inter" font-size="8">Before</text>
+                                    </svg>
+                                </div>
+                                <div class="ba-arrow">→</div>
+                                <div class="ba-side ba-after">
+                                    <svg viewBox="0 0 120 80" fill="none">
+                                        <rect width="120" height="80" rx="8" fill="rgba(201,168,76,0.08)"/>
+                                        <path d="M30 50C35 40 45 35 60 35C75 35 85 40 90 50" stroke="rgba(201,168,76,0.4)" stroke-width="2" fill="none"/>
+                                        <rect x="40" y="36" width="10" height="15" rx="2" fill="rgba(255,255,255,0.8)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+                                        <rect x="52" y="35" width="10" height="16" rx="2" fill="rgba(255,255,255,0.9)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+                                        <rect x="64" y="36" width="10" height="15" rx="2" fill="rgba(255,255,255,0.8)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+                                        <text x="60" y="72" text-anchor="middle" fill="rgba(201,168,76,0.7)" font-family="Inter" font-size="8">After</text>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Smile Makeover</h4>
+                        <p>Complete smile transformation with porcelain veneers</p>
+                    </div>
+                </div>
+                <div class="gallery-item" id="gallery-item-2">
+                    <div class="gallery-card">
+                        <div class="gallery-visual" style="background: linear-gradient(135deg, #1a1040, #0d1528);">
+                            <div class="gallery-before-after">
+                                <div class="ba-side ba-before">
+                                    <svg viewBox="0 0 120 80" fill="none">
+                                        <rect width="120" height="80" rx="8" fill="rgba(255,255,255,0.05)"/>
+                                        <rect x="42" y="30" width="10" height="18" rx="2" fill="rgba(255,200,100,0.3)" stroke="rgba(255,200,100,0.5)" stroke-width="1"/>
+                                        <rect x="62" y="30" width="10" height="18" rx="2" fill="rgba(255,200,100,0.3)" stroke="rgba(255,200,100,0.5)" stroke-width="1"/>
+                                        <line x1="55" y1="35" x2="60" y2="45" stroke="rgba(255,100,100,0.5)" stroke-width="2"/>
+                                        <text x="60" y="68" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="Inter" font-size="8">Before</text>
+                                    </svg>
+                                </div>
+                                <div class="ba-arrow">→</div>
+                                <div class="ba-side ba-after">
+                                    <svg viewBox="0 0 120 80" fill="none">
+                                        <rect width="120" height="80" rx="8" fill="rgba(201,168,76,0.08)"/>
+                                        <rect x="42" y="30" width="10" height="18" rx="2" fill="rgba(255,255,255,0.8)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+                                        <rect x="52" y="29" width="10" height="19" rx="2" fill="rgba(255,255,255,0.9)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+                                        <rect x="62" y="30" width="10" height="18" rx="2" fill="rgba(255,255,255,0.8)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+                                        <text x="60" y="68" text-anchor="middle" fill="rgba(201,168,76,0.7)" font-family="Inter" font-size="8">After</text>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Dental Implant</h4>
+                        <p>Single tooth implant with ceramic crown restoration</p>
+                    </div>
+                </div>
+                <div class="gallery-item" id="gallery-item-3">
+                    <div class="gallery-card">
+                        <div class="gallery-visual" style="background: linear-gradient(135deg, #1a1040, #0d1528);">
+                            <div class="gallery-before-after">
+                                <div class="ba-side ba-before">
+                                    <svg viewBox="0 0 120 80" fill="none">
+                                        <rect width="120" height="80" rx="8" fill="rgba(255,255,255,0.05)"/>
+                                        <path d="M35 45C40 35 50 30 60 30C70 30 80 35 85 45" stroke="rgba(255,255,255,0.3)" stroke-width="2" fill="none"/>
+                                        <rect x="38" y="32" width="9" height="14" rx="2" fill="rgba(200,180,100,0.4)" stroke="rgba(200,180,100,0.5)" stroke-width="1"/>
+                                        <rect x="49" y="31" width="9" height="15" rx="2" fill="rgba(200,180,100,0.4)" stroke="rgba(200,180,100,0.5)" stroke-width="1"/>
+                                        <rect x="60" y="31" width="9" height="15" rx="2" fill="rgba(200,180,100,0.4)" stroke="rgba(200,180,100,0.5)" stroke-width="1"/>
+                                        <rect x="71" y="32" width="9" height="14" rx="2" fill="rgba(200,180,100,0.4)" stroke="rgba(200,180,100,0.5)" stroke-width="1"/>
+                                        <text x="60" y="68" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="Inter" font-size="8">Before</text>
+                                    </svg>
+                                </div>
+                                <div class="ba-arrow">→</div>
+                                <div class="ba-side ba-after">
+                                    <svg viewBox="0 0 120 80" fill="none">
+                                        <rect width="120" height="80" rx="8" fill="rgba(201,168,76,0.08)"/>
+                                        <path d="M35 45C40 35 50 30 60 30C70 30 80 35 85 45" stroke="rgba(201,168,76,0.4)" stroke-width="2" fill="none"/>
+                                        <rect x="38" y="32" width="9" height="14" rx="2" fill="rgba(255,255,255,0.85)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+                                        <rect x="49" y="31" width="9" height="15" rx="2" fill="rgba(255,255,255,0.9)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+                                        <rect x="60" y="31" width="9" height="15" rx="2" fill="rgba(255,255,255,0.9)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+                                        <rect x="71" y="32" width="9" height="14" rx="2" fill="rgba(255,255,255,0.85)" stroke="rgba(201,168,76,0.5)" stroke-width="1"/>
+                                        <text x="60" y="68" text-anchor="middle" fill="rgba(201,168,76,0.7)" font-family="Inter" font-size="8">After</text>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Teeth Whitening</h4>
+                        <p>Professional whitening — 6 shades brighter in one visit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Patient Reviews</span>
+                <h2 class="section-title">What Our <span class="text-gold">Patients Say</span></h2>
+                <p class="section-subtitle">Don't just take our word for it — hear from those who've experienced the ORAchemy difference.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" id="testimonial-1">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"I was terrified of dentists, but Dr. Ankita made the entire root canal procedure completely painless. The clinic is super clean and modern. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">R</div>
+                        <div>
+                            <strong>Riya Patil</strong>
+                            <span>Root Canal Patient</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="testimonial-2">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Got dental implants done here and the results are amazing! Looks and feels completely natural. Dr. Ankita explained every step and made me very comfortable."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div>
+                            <strong>Suresh Deshmukh</strong>
+                            <span>Implant Patient</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="testimonial-3">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"My kids love visiting ORAchemy! The staff is so gentle and patient with children. The clinic is spotless and very welcoming. Best dental clinic in the area."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">P</div>
+                        <div>
+                            <strong>Priya Sharma</strong>
+                            <span>Parent of Two</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section class="appointment section" id="appointment">
+        <div class="container">
+            <div class="appointment-grid">
+                <div class="appointment-info">
+                    <span class="section-tag">Book Now</span>
+                    <h2 class="section-title">Schedule Your <span class="text-gold">Appointment</span></h2>
+                    <p class="appointment-desc">Take the first step towards a healthier, brighter smile. Book your free consultation today — no obligations, no pressure.</p>
+                    
+                    <div class="appointment-details">
+                        <div class="detail-item" id="detail-phone">
+                            <div class="detail-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Phone</strong>
+                                <a href="tel:+918830820949">+91 88308 20949</a>
+                            </div>
+                        </div>
+                        <div class="detail-item" id="detail-timing">
+                            <div class="detail-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
+                            <div>
+                                <strong>Clinic Hours</strong>
+                                <span>Mon–Sat: 10 AM – 2 PM, 4 PM – 9 PM</span>
+                                <span class="text-closed">Sunday: Closed</span>
+                            </div>
+                        </div>
+                        <div class="detail-item" id="detail-location">
+                            <div class="detail-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <strong>Location</strong>
+                                <span>ORAchemy Dental Care</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="appointment-whatsapp">
+                        <a href="https://wa.me/918830820949?text=Hi%20Dr.%20Ankita%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20ORAchemy%20Dental%20Care." class="btn btn-whatsapp btn-lg" id="whatsapp-book-btn" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 32 32" fill="currentColor"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.132 6.738 3.054 9.37L1.056 31.18l6.014-1.956A15.9 15.9 0 0 0 16.004 32C24.826 32 32 24.826 32 16.004S24.826 0 16.004 0zm9.31 22.606c-.39 1.1-1.932 2.012-3.18 2.278-.854.18-1.968.324-5.72-1.23-4.802-1.988-7.892-6.86-8.132-7.18-.23-.318-1.932-2.572-1.932-4.904 0-2.332 1.222-3.476 1.656-3.952.39-.43 1.04-.644 1.664-.644.2 0 .38.01.542.018.434.02.652.044 .938.724.358.854 1.228 2.996 1.336 3.214.11.218.218.514.068.812-.14.308-.264.498-.482.766-.218.268-.458.598-.654.802-.218.232-.446.482-.192.944.254.462 1.13 1.864 2.426 3.02 1.666 1.486 3.07 1.948 3.508 2.166.434.218.69.184.944-.11.264-.308 1.122-1.306 1.42-1.756.294-.45.59-.374.998-.224.41.15 2.602 1.228 3.046 1.452.444.224.74.336.85.518.108.184.108 1.058-.282 2.156z"/></svg>
+                            Book via WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <div class="appointment-form-col">
+                    <form class="appointment-form" id="appointment-form">
+                        <h3 class="form-title">Request Appointment</h3>
+                        <p class="form-subtitle">Fill in your details and we'll call you back within 30 minutes!</p>
+                        <div class="form-group">
+                            <label for="patient-name">Full Name *</label>
+                            <input type="text" id="patient-name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="patient-phone">Phone Number *</label>
+                            <input type="tel" id="patient-phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="patient-date">Preferred Date</label>
+                                <input type="date" id="patient-date" name="date">
+                            </div>
+                            <div class="form-group">
+                                <label for="patient-time">Preferred Time</label>
+                                <select id="patient-time" name="time">
+                                    <option value="">Select time</option>
+                                    <option value="10:00 AM">10:00 AM</option>
+                                    <option value="11:00 AM">11:00 AM</option>
+                                    <option value="12:00 PM">12:00 PM</option>
+                                    <option value="1:00 PM">1:00 PM</option>
+                                    <option value="4:00 PM">4:00 PM</option>
+                                    <option value="5:00 PM">5:00 PM</option>
+                                    <option value="6:00 PM">6:00 PM</option>
+                                    <option value="7:00 PM">7:00 PM</option>
+                                    <option value="8:00 PM">8:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="patient-service">Service Needed</label>
+                            <select id="patient-service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="General Checkup">General Checkup</option>
+                                <option value="Dental Implant">Dental Implant</option>
+                                <option value="Root Canal">Root Canal</option>
+                                <option value="Teeth Whitening">Teeth Whitening</option>
+                                <option value="Braces / Aligners">Braces / Aligners</option>
+                                <option value="Smile Makeover">Smile Makeover</option>
+                                <option value="Kids Dentistry">Kids Dentistry</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="patient-message">Message (Optional)</label>
+                            <textarea id="patient-message" name="message" rows="3" placeholder="Tell us about your concern..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-full" id="form-submit-btn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                            Book My Appointment
+                        </button>
+                        <p class="form-privacy">🔒 Your information is 100% secure. We'll never share your details.</p>
+                    </form>
+                    <div class="form-success" id="form-success" style="display:none;">
+                        <div class="success-icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        </div>
+                        <h3>Appointment Request Sent! 🎉</h3>
+                        <p>Thank you! We'll call you back within 30 minutes to confirm your appointment.</p>
+                        <a href="tel:+918830820949" class="btn btn-outline">Or Call Us Directly</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Map Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Visit <span class="text-gold">ORAchemy</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card" id="contact-card-call">
+                    <div class="contact-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    </div>
+                    <h4>Call Us</h4>
+                    <a href="tel:+918830820949">+91 88308 20949</a>
+                </div>
+                <div class="contact-card" id="contact-card-hours">
+                    <div class="contact-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h4>Clinic Hours</h4>
+                    <p>Mon – Sat: 10 AM – 2 PM<br>4 PM – 9 PM</p>
+                    <span class="badge-closed">Sunday Closed</span>
+                </div>
+                <div class="contact-card" id="contact-card-whatsapp">
+                    <div class="contact-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 32 32" fill="#c9a84c"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.132 6.738 3.054 9.37L1.056 31.18l6.014-1.956A15.9 15.9 0 0 0 16.004 32C24.826 32 32 24.826 32 16.004S24.826 0 16.004 0zm9.31 22.606c-.39 1.1-1.932 2.012-3.18 2.278-.854.18-1.968.324-5.72-1.23-4.802-1.988-7.892-6.86-8.132-7.18-.23-.318-1.932-2.572-1.932-4.904 0-2.332 1.222-3.476 1.656-3.952.39-.43 1.04-.644 1.664-.644.2 0 .38.01.542.018.434.02.652.044 .938.724.358.854 1.228 2.996 1.336 3.214.11.218.218.514.068.812-.14.308-.264.498-.482.766-.218.268-.458.598-.654.802-.218.232-.446.482-.192.944.254.462 1.13 1.864 2.426 3.02 1.666 1.486 3.07 1.948 3.508 2.166.434.218.69.184.944-.11.264-.308 1.122-1.306 1.42-1.756.294-.45.59-.374.998-.224.41.15 2.602 1.228 3.046 1.452.444.224.74.336.85.518.108.184.108 1.058-.282 2.156z"/></svg>
+                    </div>
+                    <h4>WhatsApp</h4>
+                    <a href="https://wa.me/918830820949" target="_blank" rel="noopener">Chat with us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner" id="cta-banner">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready for a <span class="text-gold">Brighter Smile?</span></h2>
+                <p>Book your free consultation today and take the first step towards the smile you've always dreamed of.</p>
+                <div class="cta-buttons">
+                    <a href="#appointment" class="btn btn-primary btn-lg" id="cta-book-btn">Book Free Consultation</a>
+                    <a href="tel:+918830820949" class="btn btn-outline btn-lg" id="cta-call-btn">📞 +91 88308 20949</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <img src="logo.png" alt="ORAchemy Logo" class="logo-image" width="40" height="40">
+                        <span class="logo-text">ORA<span class="logo-gold">chemy</span></span>
+                    </a>
+                    <p class="footer-desc">Premium dental care with a gentle touch. Your smile is our greatest reward.</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#testimonials">Reviews</a>
+                    <a href="#appointment">Book Appointment</a>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Services</h4>
+                    <a href="#services">Dental Implants</a>
+                    <a href="#services">Root Canal</a>
+                    <a href="#services">Teeth Whitening</a>
+                    <a href="#services">Braces & Aligners</a>
+                    <a href="#services">Kids Dentistry</a>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Contact</h4>
+                    <a href="tel:+918830820949">📞 +91 88308 20949</a>
+                    <a href="https://wa.me/918830820949" target="_blank" rel="noopener">💬 WhatsApp</a>
+                    <p class="footer-timing">🕐 Mon–Sat: 10AM–2PM, 4–9PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ORAchemy Dental Care. All rights reserved.</p>
+                <p>Designed with ❤️ for healthier smiles.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
